@@ -1,0 +1,10 @@
+<?php
+require_once('klasaKonekcija.php');
+require_once('klasaLogin.php');
+require_once('klasaRadnik.php');
+require_once('klasaPredmet.php');
+require_once('klasaStranka.php');
+require_once('klasaValidacija.php');
+require_once('klasaSud.php');
+require_once('klasaRezultat.php');
+?>

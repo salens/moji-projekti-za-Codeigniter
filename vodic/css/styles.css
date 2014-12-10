@@ -1,0 +1,230 @@
+body{
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:80%;
+	background-image:url('vodic.jpg');
+	background-repeat:repeat-y;
+	background-size:100%;
+
+}
+
+.buttonkoment{
+	border: 1px solid black;
+	background: white;
+	margin-top: 5px;
+	margin-left: 6px;
+	font-weight: bold;
+}
+
+.button {
+	border: 1px solid black;
+	font-weight: bold;
+	padding: 2px;
+}
+
+textarea{
+	border: 1px solid black;
+}
+
+.tablestil{
+	padding: 10px;
+	background: white;
+	border: 2px solid #888;
+	border-radius: 5px;
+	margin-left: 30px;
+}
+
+#tabledesavanja{
+	border:2px solid #444;
+	border-radius: 5px;
+}
+
+#tabledesavanja th {
+	border:none;
+	color:red;
+}
+
+#tabledesavanja tr td{
+	padding: 5px;
+	border: 1px solid #444;
+}
+
+.tablestil input {
+	border: 1px solid #AAA;
+	width: 200px;
+	height: 25px;
+	padding: 2px;
+	margin-left: 15px;
+}
+
+.tablestil input[type="radio"]{
+	position: relative;
+	top:7px;
+	width:30px;
+}
+
+.tablestil input[type="submit"]{
+	margin-top: 10px;
+	width: 150px;
+	float: right;
+	font-weight: bold;
+	border: 1px solid #333;
+}
+
+.tablestil tr td{
+	font-size: 16px;
+	font-style: normal;
+	font-variant: small-caps;
+	width: 150px;
+}
+
+#main-nav{
+	height:35px;
+	background-image:url(../images/nav-bg.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+	width:100%;
+}
+
+.komentar {
+	border: 2px solid black;
+	width: 800px;
+	padding: 0 10px;
+	background: white;
+	margin-bottom: 5px;
+
+}
+
+#greska {
+	color: red;
+	font-weight: bold;
+}
+
+#main-nav ul,
+#main-nav li{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+
+#main-nav ul{
+	height:29px;
+	line-height:29px;
+	background-image:url(../images/nav-bar.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+	float:left;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 10px;
+}
+
+#main-nav li{
+	height:29px;
+	line-height:29px;
+	display:inline;
+	position:relative;
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+#main-nav li a{
+	height:29px;
+	width:100px;
+	text-align:center;
+	float:left;
+	background-image:url(../images/nav-bar.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+
+
+#main-nav li a:link,
+#main-nav li a:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#main-nav li.active a,
+#main-nav li a:hover{
+	background-image:url(../images/active.gif);
+	background-size: 100px 29px;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+
+
+
+div.komentarM
+{
+	background: #3DB8B8;
+	border-style: solid;
+	border-width: 2px;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+div.komentarZ
+{
+	background: #FF14FF;
+	border-style: solid;
+	border-width: 2px;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+}
+
+span.ime
+{
+	font-weight: bold;
+	color: #000099;
+}
+
+span.ocena
+{
+	font-weight: bold;
+	color: #000099;
+}
+
+input.brisi
+{
+	float: right;
+	background: #CC0000;
+	color: white;
+	font-weight: bold;
+}
+
+p.greska
+{
+	color: red;
+	font-weight: bold;
+}
+
+.centar
+{
+	position:relative;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.naslov
+{
+position:relative;
+margin-right:900px;
+
+}
+.grupa
+{
+
+position:relative;
+margin-right:1300px;
+}
+
+.podgrupa
+{
+
+position:relative;
+margin-right:1300px;
+}
