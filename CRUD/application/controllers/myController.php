@@ -4,7 +4,7 @@ class MyController extends CI_Controller {
     
     public function index(){
       $this->_WelcomeScreen();     
-   
+		// ovo se poziva automatski
     }
     
     function _WelcomeScreen(){
